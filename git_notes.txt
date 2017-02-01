@@ -23,3 +23,18 @@ status  Information about changes in Staging area                               
 
 
 
+Push to a remote repository
+___________________________
+
+First, create a new repository in https://github.com/yago93/  named film_git_notes.git
+Then following the instructions of the site push the local repository to the remote one
+
+$ git remote add origin https://github.com/yago93/film_git_notes.git
+$ git push -u origin master
+
+This last command asks for username and password and transfers local information to the remote server.
+
+
+
+
+
