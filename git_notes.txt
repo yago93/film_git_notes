@@ -13,9 +13,10 @@ commit  -m "some information on file to be commited to the repository"          
 status  Information about changes in Staging area                                                        C-x v   s
         Red
         Changes in working directory not staged yet
-                git add <filename> to stage the changes
-                git checkout <filename> to discard the nonstaged changes
-		git diff   to see the changes
+                git add <filename> to stage the changes                                                  C-x v   i
+                git checkout <filename> to discard the nonstaged changes                                 C-x v   u
+		git diff   to see the changes                                                            C-x v   =
+               (git ediff ?)                                                                             C-x v   e
         Green
         Changes staged but not commited yet
                 git commit -m "message" to commit the changes to the repository                          C-x v   w
