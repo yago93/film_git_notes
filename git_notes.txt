@@ -1,0 +1,25 @@
+
+
+                                         Using Git
+                                    = = = = = = = = = = 
+
+Basic commands with git                                                                                  Egg keys
+_______________________                                                                                ____________
+
+add     first thing to use git on a file is to put the file under git control: $ git add <filename>      C-x v   i
+add     also used to stage a changed file ready for "commit"
+commit  -m "some information on file to be commited to the repository"                                   C-x v   w
+
+status  Information about changes in Staging area                                                        C-x v   s
+        Red
+        Changes in working directory not staged yet
+                git add <filename> to stage the changes
+                git checkout <filename> to discard the nonstaged changes
+		git diff   to see the changes
+        Green
+        Changes staged but not commited yet
+                git commit -m "message" to commit the changes to the repository                          C-x v   w
+                git diff --cached  to see the staged changes
+
+
+
