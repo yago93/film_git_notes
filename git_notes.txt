@@ -14,15 +14,17 @@ status  Information about changes in Staging area                               
         Red
         Changes in working directory not staged yet
                 git add <filename> to stage the changes                                                  C-x v   i
-                git checkout <filename> to discard the nonstaged changes                                 C-x v   u
+                git checkout <filename> to discard the nonstaged changes                                 C-x v   u (ignore: Yes)
 		git diff   to see the changes                                                            C-x v   =
                (git ediff ?)                                                                             C-x v   e
         Green
         Changes staged but not commited yet
                 git commit -m "message" to commit the changes to the repository                          C-x v   w
-                git diff --cached  to see the staged changes
+                git diff --cached  to see the staged changes                                             still do not know
+                (In egg, C-x v s gives the diff in the two levels)
 
-
+log	Information about commited changes in repository                                                 C-x v   h
+		    	  	   	      								 C-x v   l
 
 Push to a remote repository
 ___________________________
@@ -35,7 +37,6 @@ $ git push -u origin master
 
 This last command asks for username and password and transfers local information to the remote server.
 
-
-
+(Still do not know whether this can be done from inside Emacs)
 
 
